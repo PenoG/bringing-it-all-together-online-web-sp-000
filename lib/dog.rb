@@ -10,6 +10,6 @@ class Dog
   
   
   def self.create_table
-    DB[:conn].execute("")
+    DB[:conn].execute("CREATE TABLE dogs")
   end
 end
